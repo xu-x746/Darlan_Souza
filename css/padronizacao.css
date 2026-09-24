@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav button{
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+nav button:hover{
+    border-bottom: 2px solid rgb(189, 124, 3);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 50px;
+    background: orange;
+
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+
+    transition: background 0.3s, backdrop-filter 0.3s;
+
+    max-height: 10vh;
+}
+
+header.scrolled {
+    background: rgba(255, 166, 0, 0.65);
+    backdrop-filter: blur(10px);
+
+    border-radius: 12px;
+}
+
+h1 span {
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+    font-size: larger;
+    margin: 0 24px 0 0;
+}
+
+h3 span {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    display: inline-block;
+    transform: skewX(30deg);
+    font-size: large;
+    color: rgb(220, 144, 3);
+    margin: 40px 0 0 0;
+}
+
+span.souza{
+    font-family: "Anton", sans-serif;
+    color: orangered;
+    transform: scaleY(1.3), scaleX(1.2);   
+}
+
+body{
+    background: black;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+#Carreira{
+    color: white;
+}
+
+#carreira {
+    scroll-margin-top: 10vh;
+}
+
+#Titulos{
+    color: white;
+}
+
+section{
+    min-height: 90vh;
+}

@@ -1,0 +1,109 @@
+#carreira {
+    color: white;
+
+    height: calc(100vh - 92px);
+    min-height: 0;
+
+    overflow: hidden;
+}
+
+#carreira .MAIOR{
+    font-size:350%;
+    margin: -3% 0 0 0;
+    line-height: 1.1;
+}
+
+#carreira .imageC-textoC {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+
+    justify-content: flex-start;
+
+    border: solid yellow 1.5px;
+
+    overflow: hidden;
+}
+
+
+#carreira .imageC {
+    width: 40%;
+    height: 100%;
+
+    object-fit: cover;
+
+    z-index: 1;
+}
+
+
+#carreira .textoC {
+    width: 40%;
+    height: 100%;
+
+    position: relative;
+
+    z-index: 1;
+
+    overflow: hidden;
+
+    padding: 0 0 0 5%;
+}
+
+#carreira .letraFundo {
+
+    margin: 5% 0 0 -10%;
+
+    font-size: clamp(60px, 8vw, 130px);
+
+    line-height: 0.8;
+
+    color: rgba(141, 141, 141, 0.5);
+
+    z-index: 0;
+
+    transform: none;
+
+    display: inline-block;
+    transform: skewX(-20deg);
+}
+
+#carreira .parteBaixo {
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    border: solid yellow 1.5px;
+
+    overflow: hidden;
+}
+
+#carreira .linhaTempo{
+    width: 14%;
+    padding: 1%;
+    margin: 1%;
+    border-right: solid 1px orangered;
+    border-left: 1px solid orangered;
+}
+
+.imagemTimeLine{
+    display: flex;
+    justify-content: center;
+}
+
+#carreira .textoCTimeLine{
+    margin: 0 5% 0 2%;
+    width:20%;
+}
+
+#carreira .pequeno{
+    font-size: 75%;
+    margin: 25% 0 -5% 0;
+}
+
+.laranja{
+    color: orangered;
+}

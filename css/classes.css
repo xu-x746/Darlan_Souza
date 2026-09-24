@@ -1,0 +1,165 @@
+img.home1{
+    width: 15%;
+    float:inherit;
+}
+
+img.home2{
+    width: 15%;
+    margin: 12px 30px 0 30px;
+    filter: grayscale(100%) contrast(120%);
+}
+
+div.fogo{
+    background:
+    radial-gradient(circle at 30% 80%, #ff6a00, transparent 40%),
+    radial-gradient(circle at 70% 60%, #ff9d00, transparent 35%),
+    #080808;
+    border: rgb(150, 99, 3) solid 3px;
+    color: white;
+    padding: 30px 50px 0 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+div.foguin{
+    display: flex;
+    flex-direction: column;
+}
+
+div.sobre{
+    background: linear-gradient(to right, rgb(72, 72, 72), rgb(52, 52, 52), rgb(30, 30, 30));
+    display: flex;
+    justify-content: space-between;
+}
+
+div.carreira{
+    width: 55%;
+    background: linear-gradient(to right, rgb(180, 117, 1),rgb(138, 90, 0), rgba(0, 0, 0, 0.700), rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0));
+    border: #ff6a00 solid 2px;
+}
+
+div.titulos{
+    width: 45%;
+    background: linear-gradient(60deg, rgba(0, 0, 0, 0.841),rgba(97, 72, 26, 0.7), rgba(228, 123, 4, 0.7));
+    border: #ff6a00 solid 3px;
+}
+
+div.carreira-titulos{
+    display: flex;
+}
+
+.perto{
+    margin: 0 0 -40px 0;
+}
+
+.grande{
+    font-weight: bolder;
+    font-size: 300%;
+    transform: scaleX(1.5);
+    margin: 50px 0 0 65px;
+    letter-spacing: 3px;
+}
+
+.irPara{
+    border: none;
+    background: #ff9900;
+    align-items: center;
+    display: flex;
+
+    border-radius: 4px;
+    padding: 15px 25px;
+
+    margin: 10px;
+}
+
+#daora:hover{
+    background-color: rgb(189, 124, 3);
+}
+.sobre2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px 15% 0 10px;
+    color: white;
+    font: caption;
+}
+
+.sobre-2{
+    font: caption;
+    color:#ff6a00;
+    font-size: xx-large;
+    margin: 0 0 -10px 0;
+    letter-spacing: 2px;
+}
+
+img.carreira{
+    width: 55%;
+    float: right;
+}
+
+#Carreira h2.margem{
+    margin: 5% 0 1% 5%;
+    font: caption;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+
+#Carreira p{
+    margin: 0 0 5% 5%;
+    font-size: large;
+}
+
+#Carreira button{
+    border: #ff6a00 solid 3px;
+    background: none;
+    padding: 1% 4%;
+    color: white;
+    border-radius: 12px;
+    margin: 0 0 0 5%;
+}
+
+#Carreira button:hover{
+    border: #a74500 solid 3px;
+    background: none;
+    padding: 1% 4%;
+    color: white;
+    border-radius: 12px;
+    margin: 0 0 0 5%;
+}
+
+#Titulos h2{
+    margin: 5% 0 1% 5%;
+    font: caption;
+    font-size: xx-large;
+    letter-spacing: 2px;
+}
+
+#Titulos p{
+    margin: 5% 0 5% 5%;
+    font-size: large;
+}
+
+#Titulos img{
+    margin: 5%;
+    float: right;
+    width: 25%;
+}
+
+#Titulos button{
+    border: #ff6a00 solid 3px;
+    background: none;
+    padding: 1% 4%;
+    color: white;
+    border-radius: 12px;
+    margin: 0 0 0 5%;
+}
+
+#Titulos button:hover{
+    border: #a74500 solid 3px;
+    background: none;
+    padding: 1% 4%;
+    color: white;
+    border-radius: 12px;
+    margin: 0 0 0 5%;
+}

@@ -1,0 +1,58 @@
+.image-texto img {
+    width: 50%;
+    float: inline-start;
+}
+
+.texto p{
+    color: white;
+    font: caption;
+    font-size: large;
+    margin: 12px 0 0 0;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+div.texto{
+    width: 50%;
+    padding: 0 5% 0 0;
+}
+
+.image-texto{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+h4{
+    margin: -4% 0 -4% 0;
+    font: italic;
+}
+span.força{
+    font-size: 950%;
+    color: rgba(85, 74, 65, 0.3);
+    margin: 0;
+    margin: 5% 0 0 0;
+    letter-spacing: 15px;
+    z-index: 1;
+    font: italic;
+}
+
+.topicos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topico{
+    width: 33.3%;
+    border-right: 2px solid orangered;
+    color: white;
+    padding: 0 0.5% 0 0;
+    margin: 0 1% 0 0;
+}
+
+.utopico{
+    width: 33.3%;
+    color: white;
+}
